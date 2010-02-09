@@ -1,0 +1,22 @@
+jQuery Tabs for Lift (2.0-scala280-SNAPSHOT)
+
+Installation
+
+// pom.xml
+<dependency>
+    <groupId>net.liftweb</groupId>
+    <artifactId>lift-widgets-tabs</artifactId>
+    <version>${lift.version}</version>
+</dependency>
+
+// Boot.scala
+import net.liftweb.widgets.tabs.Tabs
+
+
+class Boot {
+    def boot {
+        ...
+        Tabs.init
+        ...
+    }
+}
